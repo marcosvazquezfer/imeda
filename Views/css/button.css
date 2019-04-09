@@ -1,0 +1,86 @@
+/**
+ * Fichero que permite dar estilo a los botones
+ * Autor: Mauri -Grupo Imeda
+ * Fecha inicio: 29/11/2017
+ */
+
+.wrapper {
+    width: 300px;
+    box-shadow: -2px 10px 86px -31px rgba(0,0,0,0.75);
+}
+
+.button {
+    border: none;
+    background: none;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 12px 32px;
+   /* padding: 25px 86px;
+/ / big button height: auto;*/
+    width: auto;
+    font-size: 1rem;
+    font-size: 4rem;
+    font-family: "Sofia Pro", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    color: white;
+    background-color: #6F1122;
+    background-image: none;
+    border: 0 none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: -2px 10px 40px -30px rgba(0,0,0,0.6);
+}
+.wrapper a{
+    color:white;
+}
+
+
+.button--big{
+     padding:18px 70px;
+     font-size:1.5625rem;
+}
+
+
+.button:hover, .button:focus{
+              background-color: white;
+              text-decoration:none;
+              outline:none;
+    box-shadow: -4px 18px 50px -35px rgba(0,0,0,0.6);
+          }
+
+
+.button:hover a{
+    color:#6F1122;
+}
+
+
+
+
+.cat{
+
+    margin:0;
+}
+
+.cat{
+    margin-left:1%;
+    margin-top:60px;
+
+}
+
+
+.wrapper{
+    margin-right:60px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
